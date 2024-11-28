@@ -1,0 +1,124 @@
+body {
+    background: #1b1c20;
+    color: white;
+}
+nav{
+    height: 120px;
+    background-color: rgb(28, 31, 48);
+}
+.navbar {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 15px; 
+    box-shadow: 0px 6px 2px rgba(0, 0, 0, 0.3); 
+}
+.nav-item{
+    font-size: 20px;
+    padding:20px;
+}
+#logo {
+    display: flex;
+    align-items: center; 
+}
+
+
+#logo img {
+    max-width: 90px; 
+    height: auto;    
+}
+
+
+.carousel .carousel-item {
+    transition-property: transform;
+    transition-duration: 0.6s;
+}
+.card-texto{
+    color: white;
+}
+.card-title{
+    color:white;
+}
+.card {
+    background: linear-gradient(135deg, #1c1c30, rgb(28, 31, 48));
+    transition: background 0.5s ease;
+}
+
+.card:hover {
+    background: linear-gradient(135deg, #3a7bd5, #1d3058);
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+#rutinas-contenido{
+    max-height:250px;
+    scrollbar-width: none;
+}
+@media screen and (min-width: 771px){
+    #rutinas-contenido.card {
+       width: calc(50% - .5rem);
+    }
+}
+
+@media screen and (max-width: 770px){
+    #rutinas-contenido.card {
+       width: 400px;
+    }
+}
+#rutinas{
+    padding: 40px; 
+    border-radius: 10px; 
+    margin: 20px auto; 
+    background-color: rgb(28, 31, 48);    
+}
+
+#rutinas-contenido.card img{
+    width:25px;
+}
+.card.naranjas {
+    border-radius: 1rem;
+}
+
+.card.verdes {
+  
+    border-radius: 1rem;
+}
+
+.card.violetas {
+ 
+    border-radius: 1rem;
+}
+
+.card.rojas {
+
+    border-radius: 1rem;
+}
+
+.card.azules {
+    border-radius: 1rem;
+}
+   .oculto{
+    display:none !important;
+   }
+
+.card-text{
+    color:white;
+} 
+#video{
+    margin-top: 50px;
+}
+#contacto{
+    background-color: rgb(28, 31, 48);
+    border-radius:2rem;
+}
+
+
+footer{
+background-color: rgb(28, 31, 48);
+}
+button:hover {
+    background: linear-gradient(to right, #3a7bd5, #1d3058);
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
